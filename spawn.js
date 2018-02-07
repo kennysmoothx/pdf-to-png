@@ -53,5 +53,5 @@ function success (message) {
 }
 
 function exit () {
-  require('remote').require('app').quit()
+  require('electron').remote.app.quit()
 }
